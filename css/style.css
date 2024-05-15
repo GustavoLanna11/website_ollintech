@@ -1,0 +1,110 @@
+body{
+    background-color: #1C1C1C;
+}
+
+
+#navbar{
+    background-color: #131313;
+    width: 100%;
+    height: 100px;
+
+    border-radius: 10px;
+}
+
+/*Home*/
+#home{
+    background-color: #1C1C1C;
+    width: 100%;
+    height: 600px;
+
+}
+
+#bg{
+    width: 1002px;
+    height: 393px;
+
+
+    margin-left:893px;
+    background-image: url('../imagens/BG.png');
+    background-repeat: no-repeat;
+
+}
+
+#combo{ 
+    display: flex;
+    margin-top: 200px;
+    margin-left: 25%;
+
+}
+
+
+#content{
+    margin-left: 100px
+}
+
+#title-home{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px
+}
+
+#txt-home{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#title{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+
+#txt{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Home*/
+
+#redirect{
+    background-color: #282828;
+    width: 100%;
+    height: 900px;
+}
+
+#sobre{
+    background-color: #1C1C1C;
+    width: 100%;
+    height: 900px;
+}
+
+#paleta{
+    background-color: #282828;
+    width: 100%;
+    height: 900px;
+}
+
+#tipografia{
+    background-color: #1C1C1C;
+    width: 100%;
+    height: 900px;
+}
+
+#integrantes{
+    background-color: #282828;
+    width: 100%;
+    height: 900px;
+}
+
+#quaggio{
+    background-color: #1C1C1C;
+    width: 100%;
+    height: 900px
+}
+
+#footer{
+    background-color: #131313;
+    width: 100%;
+    height: 350px
+}
