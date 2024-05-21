@@ -4,14 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
     <title>Ollintech WebSite</title>
 </head>
 <body>
     <div id="wrapper">
-        <div id="navbar"></div>
+        <div id="navbar">
+            <nav class="navbar navbar-expand-lg" id="navbar1">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img src="imagens/icon-nav.png" alt="" id="icon-navbar"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav" id="nav-redirect">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home" id="nav-">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#sobre" id="nav-">Sobre</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#integrantes" id="nav-">Integrantes</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#quaggio" id="nav-">Projeto</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>
+
         <div id="home">
             <div id="combo">
-                <div id="logo">
+            <div id="logo">
                 <img src="imagens/logo.png" alt="" id="logo-ollin">
             </div>
             <div id="content">
@@ -46,32 +74,40 @@
             </div>
         </div>
         <div id="sobre">
-            <div id="title">SOBRE NÓS</div>
-            <div id="firula"></div>
-            <div id="txt">A ollintech é uma equipe de tecnologia que surgiu na FATEC,  para a realização de um trabalho, o Projeto Integrador, que visa o desenvolvimento de um sistema para a solução de algum problema, mas, para isso, era necessário a criação de uma logomarca e identidade visual.</div>
-            <div id="content-sobre">
-                <div id="logo-sobre"><img src="imagens/logo_white.png" alt="" id="logo_white"></div>
-                <div id="divisao"></div>
-                <div id="mockup-sobre"><img src="imagens/mockup1.png" alt=""></div>
+            <div id="sobre-c">
+                    <div id="title">SOBRE NÓS</div>
+                    <div id="firula"></div>
+                    <div id="txt">A ollintech é uma equipe de tecnologia que surgiu na FATEC,  para a realização de um trabalho, o Projeto Integrador, que visa o desenvolvimento de um sistema para a solução de algum problema, mas, para isso, era necessário a criação de uma logomarca e identidade visual.</div>
+                    <div id="content-sobre">
+                        <div id="logo-sobre"><img src="imagens/logo_white.png" alt="" id="logo_white"></div>
+                        <div id="divisao"></div>
+                        <div id="mockup-sobre"><img src="imagens/mockup1.png" alt="" id="mockup1"></div>
+                    </div>
             </div>
+                
+            </div>
+           
         </div>
         <div id="paleta">
             <div id="content-paleta">
                 <div id="title">PALETA DE CORES</div>
 
-                <div id="firula2" style= "height: 15px; width: 300px; margin-left: 44.5%; margin-top: 10px; background-color: #D5238E;">
+                <div id="firula2" style= "height: 10px; width: 300px; margin-left: 44.5%; margin-top: 8px; border-radius: 30px; background-color: #D5238E;">
                 </div>
             
                 <div id="txt">Para as cores da nossa logomarca, nós, da equipe, pensamos num tom monocromático (variações de tom de uma cor), logo chegamos ao rosa, que passa uma sensação de criatividade, imaginação e conexão, além disso, adicionamos um “coringa”, um tom de preto mais claro, que inclusive é utilizado nesse website.</div>
-                <div id="paleta-icon"><img src="imagens/paleta.png" alt=""></div>
+                <div id="paleta-icon"><img src="imagens/paleta.png" alt="" id="paleta_cores"></div>
             </div>
             
         </div>
         <div id="tipografia">
-            <div id="title">TIPOGRAFIA</div>
-            <div id="firula"></div>
-            <div id="txt">A tipogafia escolhida para a nossa equipe foi a “Kanit”, uma fonte mais minimalista e que passa a ideia de modernidade e de uma fonte mais limpa.</div>
-            <div id="tipografia-icon"><img src="imagens/tipografia.png" alt=""></div>
+            <div id="content-tipografia">
+                <div id="title">TIPOGRAFIA</div>
+                <div id="firula"></div>
+                <div id="txt">A tipogafia é simplesmente um dos principais pilares da identidade visual, visto que, irá representar as ideias e valores que a equipe e o projeto passam, por isso,nós, da Ollintech, demos muita atenção a essa seleção. A fonte escolhida para a nossa equipe foi a “Kanit”, uma fonte mais minimalista e que passa a ideia de modernidade e de uma fonte mais limpa.</div>
+                <div id="tipografia-icon"><img src="imagens/tipografia.png" alt="" id="img-tipografia"></div>
+            </div>
+            
         </div>
         <div id="integrantes">
             <div id="content-int">
@@ -104,15 +140,17 @@
             </div>
         </div>
         <div id="quaggio">
-            <div id="title">PROJETO</div>
-            <div id="firula" style="height: 15px; width: 160px; margin-left: 44.5%; margin-top: 10px; background-color: #D5238E;"></div>
-            <div id="bloco1">
-                <div id="logo-quaggio"><img src="imagens/quaggio.png" alt=""></div>
-                <div id="txt-quaggio">Para o Projeto Integrador, nós, da Ollintech estamos desenvolvendo um Sistema, que, a partir de Inteligência Artifical (deep learning) irá auxiliar produtores de queijo de búfala a controlar a qualidade de suas produções.</div>
-            </div>
-            <div id="bloco2">
-                <div id="explicacao">Após pesquisas, identificamos uma grande defasagem no controle de qualidade dessas produções, essa área, ainda é muito manual, então, nosso objetivo é inovar utilizando tecnologia e facilitar o controle de qualidade dessas produções.</div>
-                <div id="mockup-quaggio"><img src="imagens/mockup-quaggio.png" alt=""></div>
+            <div id="content-projeto">
+                <div id="title">PROJETO</div>
+                <div id="firula" style="height: 15px; width: 160px; margin-left: 44.5%; margin-top: 10px; background-color: #D5238E;"></div>
+                <div id="bloco1">
+                    <div id="logo-quaggio"><img src="imagens/quaggio.png" alt="" id="quaggio-img"></div>
+                    <div id="txt-quaggio">Para o Projeto Integrador, nós, da Ollintech estamos desenvolvendo um Sistema, que, a partir de Inteligência Artifical (deep learning) irá auxiliar produtores de queijo de búfala a controlar a qualidade de suas produções.</div>
+                </div>
+                <div id="bloco2">
+                    <div id="explicacao">Após pesquisas, identificamos uma grande defasagem no controle de qualidade dessas produções, essa área, ainda é muito manual, então, nosso objetivo é inovar utilizando tecnologia e facilitar o controle de qualidade dessas produções.</div>
+                    <div id="mockup-quaggio"><img src="imagens/mockup-quaggio.png" alt="" id="mockup-projeto"></div>
+                </div>
             </div>
         </div>
         <div id="footer">
@@ -128,5 +166,8 @@
             <div id="copyright"></div>
         </div>
     </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
